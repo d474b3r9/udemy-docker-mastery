@@ -1,0 +1,9 @@
+docker network create dude
+docker container run -d --net dude --net-alias search elasticsearch:2
+docker container run -d --net dude --net-alias search elasticsearch:2
+docker cointainer ls
+
+# check results form hosts on the dude network
+docker container run --rm --net dude alpine nslookup search
+# hit several times the same command to see round rubin in action (it is random)
+docker container run --rm --net dude centos curl -s search:9200
