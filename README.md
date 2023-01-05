@@ -1,4 +1,5 @@
 # Udemy Course Docker Mastery: with Kubernetes+Swarm from a Docker Captain
+https://www.udemy.com/course/docker-mastery/
 
 [![Lint Code Base](https://github.com/BretFisher/udemy-docker-mastery/actions/workflows/call-super-linter.yaml/badge.svg)](https://github.com/BretFisher/udemy-docker-mastery/actions/workflows/call-super-linter.yaml)
 
